@@ -1,5 +1,5 @@
-# 💫 About Me:
-Flutter Enthusiast<br>Flutter Developer<br>I'm Currently working on Hostel Attendence app<br>Student at WMO ARTS AND SCIENCE COLLEGE<br>Push > Pull
+# 💫 About Me
+<br>Flutter Developer<br>Student at WMO ARTS AND SCIENCE COLLEGE<br>Flutter Enthusiast 
 
 
 ## 🌐 Socials:
