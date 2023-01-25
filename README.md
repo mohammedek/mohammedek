@@ -1,5 +1,5 @@
 # 💫 About Me
-<br>-Flutter Developer<br>- CS Student at WMO ARTS AND SCIENCE COLLEGE<br>-Flutter Enthusiast 
+<br>- Flutter Developer<br>- CS Student at WMO ARTS AND SCIENCE COLLEGE<br>- Flutter Enthusiast 
 
 
 ## 🌐 Socials:
