@@ -1,5 +1,6 @@
 # 🗿 About Me:
-🔭 I’m currently working on Hostel Attendence <br>🌱 I’m currently learning CS<br>💬 Ask me about flutter <br>⚡ Fun fact Darker the theme lesser the bugs
+😎 I’m Mohammed ek <br>
+🔭 I’m currently working on ... <br>🌱 I’m currently learning CS<br>💬 Ask me about flutter <br>⚡ Fun fact Darker the theme lesser the bugs
 
 
 ## 🌐 Socials:
