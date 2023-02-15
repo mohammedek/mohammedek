@@ -20,7 +20,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=Mohammedek&theme=onedark&no-frame=true&no-bg=true&margin-w=4)
 
 
-### ✍️ Quote of the day
+### ✍️ Quote of the Day
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 
