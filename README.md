@@ -1,6 +1,6 @@
 # 🗿 About Me:
 😎 I’m Mohammed ek <br>
-🔭 I’m currently working on ...
+🔭 I’m a Flutter Entusiast ...
 <br>🌱 I’m currently learning CS
 <br>💬 Ask me about flutter
 <br>⚡ CircularProgressIndicator()
