@@ -121,6 +121,11 @@
 
 <br/>  
 
+<h2 align="left">⚡Activity Graph:</h2>
+  <a><img alt="Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=mohammedek&theme=react-dark&hide_border=true" />
+    <img alt="Activity Graph" src="profile-3d-contrib/profile-night-rainbow.svg" />
+  </a>
+
 <div align="center">
             <a href="https://www.buymeacoffee.com/mohammedekI" target="_blank" style="display: inline-block;">
                 <img
