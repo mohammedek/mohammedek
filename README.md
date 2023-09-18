@@ -6,10 +6,10 @@
 </div>  
   
 
-### <div align="center">I'm Mohammed ek , An Intern at AdamBere , freelance developer 👨‍💻 working remotely since 2021 🚀</div>  
+### <div align="center">I'm Mohammed Ek , Working as Junior Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2021 🚀</div>  
   
 
-- 🔭 I’m currently working on an E-commerce Application 
+- 🔭 I’m currently working at a RealEstate Based Start-up
   
 
 - 🌱 I’m currently learning Flutter Related Topics  
@@ -18,7 +18,7 @@
 - ❓ Ask me about anything related Football, Chess, Self-development Books  
   
 
-- ⚡ Fun fact: I use    tabs over spaces  
+- ⚡ Fun fact: Why Dont Scientists trust atoms ? Because they make up Everything 
   
 
 <br/>  
