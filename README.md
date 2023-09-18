@@ -109,7 +109,8 @@
 <br/>  
 
 <h2 align="left">⚡Activity Graph:</h2>
-  <a><img alt="Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=mohammedek&theme=react-dark&hide_border=true"/>
+  <a>
+   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammedek&theme=dracula&area=true&hide_border=true#gh-dark-mode-only" width="100%">
   </a>
 
 <div align="center">
