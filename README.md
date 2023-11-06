@@ -6,7 +6,7 @@
 </div>  
   
 
-### <div align="center">I'm Mohammed Ek , Working as Junior Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2021 🚀</div>  
+### <div align="center">I'm Mohammed Ek , Working as Mid-Senior Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2020 🚀</div>  
   
 
 - 🔭 I’m currently working at a RealEstate Based Start-up
