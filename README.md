@@ -29,9 +29,10 @@
 <a href = "https://play.google.com/store/apps/details?id=com.mexilet.bookpropertyvisit&pcampaignid=web_share">click here</a>
 <br>
 <h2>Book Property Visit - Builders</h2>
-<a href = "[https://play.google.com/store/apps/details?id=com.mexilet.bookpropertyvisit&pcampaignid=web_share](https://play.google.com/store/apps/details?id=com.mexilet.BookPropertyVisit.business&pcampaignid=web_share)">click here</a>
+<a href = "https://play.google.com/store/apps/details?id=com.mexilet.BookPropertyVisit.business&pcampaignid=web_share">click here</a>
 <br>
-## My Skill Set  
+
+### My Skill Set  
 <table><tr><td valign="top" width="33%">
 
 
