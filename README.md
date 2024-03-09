@@ -6,13 +6,13 @@
 </div>  
   
 
-### <div align="center">I'm Mohammed Ek , Working as Mid-Senior Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2020 🚀</div>  
+### <div align="center">I'm Mohammed Ek , Working as Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2020 🚀</div>  
   
 
 - 🔭 I’m currently working at a RealEstate Based Start-up
   
 
-- 🌱 I’m currently learning Flutter Related Topics  
+- 🌱 I’m currently learning Mobile Development Topics  
   
 
 - ❓ Ask me about anything related Football, Chess, Self-development Books  
@@ -23,7 +23,7 @@
 
 <br/>  
 
-<h1>Cut to the chase if you're  here to see my Last Work </h1>
+<h1>My Recent / Ongoing Works 👇 </h1>
 <br>
 <h2>Book Property Visit</h2>
 <a href = "https://play.google.com/store/apps/details?id=com.mexilet.bookpropertyvisit&pcampaignid=web_share">click here</a>
