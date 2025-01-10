@@ -1,137 +1,104 @@
-
-
-### Flutter Developer  
 <div align="center">
-<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" align="center" style="width: 100%" />
-</div>  
-  
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" className="w-full" />
+</div>
 
-### <div align="center">I'm Mohammed Ek , Working as Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2020 🚀</div>  
-  
+### <div align="center">I'm Mohammed Ek , Working as Flutter Developer , Freelance Dev 👨‍💻, working remotely since 2020 🚀</div>
 
-- 🔭 I’m currently working at a RealEstate Based Start-up
-  
+- 🔭 I'm currently working full time at Cholamandalam Investment and Finance Limited
 
-- 🌱 I’m currently learning Mobile Development Topics  
-  
+- 🌱 I'm currently learning Mobile Development Topics
 
-- ❓ Ask me about anything related Football, Chess, Self-development Books  
-  
+- ❓ Ask me about anything related Football, Chess, Self-development Books
 
-- ⚡ Fun fact: Why Dont Scientists trust atoms ? Because they make up Everything 
-  
+- ⚡ Fun fact: Why Dont Scientists trust atoms ? Because they make up Everything
 
-<br/>  
+<br/>
 
-<h1>My Recent / Ongoing Works 👇 </h1>
-<br>
-<h2>Book Property Visit</h2>
-<a href = "https://play.google.com/store/apps/details?id=com.mexilet.bookpropertyvisit&pcampaignid=web_share">click here</a>
-<br>
-<h2>Book Property Visit - Builders</h2>
-<a href = "https://play.google.com/store/apps/details?id=com.mexilet.BookPropertyVisit.business&pcampaignid=web_share">click here</a>
-<br>
-
-### My Skill Set  
+### My Skill Set
 <table><tr><td valign="top" width="33%">
 
-
-
-### Frontend  
-<div align="center">  
-<a href="https://flutter.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+### Frontend
+<div align="center">
+<a href="https://flutter.dev/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" /></a>
+<a href="https://www.python.org/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
 </div>
 
 </td><td valign="top" width="33%">
 
-
-
-### Backend  
-<div align="center">  
-<a href="https://flutter.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
-<a href="https://dart.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dartlang-icon.svg" alt="Dart" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://www.android.com/intl/en_in/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" alt="Android" height="50" /></a>  
+### Backend
+<div align="center">
+<a href="https://flutter.dev/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" /></a>
+<a href="https://www.python.org/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>
+<a href="https://dart.dev/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/dartlang-icon.svg" alt="Dart" height="50" /></a>
+<a href="https://github.com/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>
+<a href="https://www.android.com/intl/en_in/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" alt="Android" height="50" /></a>
 </div>
 
 </td><td valign="top" width="33%">
 
-
-
-### DevOps  
-<div align="center">  
-<a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" /></a>  
+### DevOps
+<div align="center">
+<a href="https://cloud.google.com/" target="_blank"><img style={{margin: "10px"}} src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" /></a>
 </div>
 
-</td></tr></table>  
+</td></tr></table>
 
-<br/>  
+<br/>
 
-
-## Connect with me  
+## Connect with me
 <div align="center">
 <a href="https://github.com/mohammedek" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="github" style={{marginBottom: "5px"}} />
 </a>
 <a href="https://twitter.com/Mohammedek11" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" style={{marginBottom: "5px"}} />
 </a>
 <a href="https://instagram.com/mo_hammed___ek" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" style={{marginBottom: "5px"}} />
 </a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/mohammed-ek-445a44202" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
+<img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style={{marginBottom: "5px"}} />
+</a>
+</div>
 
-<br/>  
+<br/>
 
+## Github Stats
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=mohammedek&show_icons=true&count_private=true&hide_border=true" align="center" /></div>
 
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=mohammedek&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
-
+<br/>
 
 ## Coding Music
-  
 
-<br/>  
+<br/>
 
-<div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31yzr6gvcxivuzadjrnu5nahemue&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" /></div>  
+<div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31yzr6gvcxivuzadjrnu5nahemue&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" /></div>
 
-<br/>  
+<br/>
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=mohammedek&&style=flat-square" align="center" />
-</div>  
-  
+</div>
 
-<br/>  
+<br/>
 
 <h2 align="left">⚡Activity Graph:</h2>
-  <a>
-   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammedek&theme=dracula&area=true&hide_border=true#gh-dark-mode-only" width="100%">
-  </a>
+<a>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohammedek&theme=dracula&area=true&hide_border=true#gh-dark-mode-only" className="w-full" />
+</a>
 
 <div align="center">
-            <a href="https://www.buymeacoffee.com/mohammedekI" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
-                    align="center"
-                />
-            </a>
-            <a href="https://ko-fi.com/mohammedek" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-Ko--fi-F16061.svg?style=flat-square&logo=ko-fi" 
-                    align="center"
-                />
-            </a></div>
-<br />
-
-----
-<!-- <div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div> -->
+<a href="https://www.buymeacoffee.com/mohammedekI" target="_blank" style={{display: "inline-block"}}>
+    <img
+        src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee"
+        align="center"
+    />
+</a>
+<a href="https://ko-fi.com/mohammedek" target="_blank" style={{display: "inline-block"}}>
+    <img
+        src="https://img.shields.io/badge/Donate-Ko--fi-F16061.svg?style=flat-square&logo=ko-fi"
+        align="center"
+    />
+</a>
+</div>
