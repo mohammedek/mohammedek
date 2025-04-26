@@ -19,22 +19,26 @@ export function BackgroundEffect({ cursorPosition, scrollY }) {
 
     // Create particles
     const particlesArray = []
-    const numberOfParticles = 100
+    const numberOfParticles = Math.min(100, Math.floor((width * height) / 10000)) // Adjust based on screen size
 
     class Particle {
       constructor() {
         this.x = Math.random() * width
         this.y = Math.random() * height
-        this.size = Math.random() * 5 + 1
-        this.speedX = Math.random() * 3 - 1.5
-        this.speedY = Math.random() * 3 - 1.5
+        this.size = Math.random() * 3 + 1 // Smaller particles for better performance
+        this.speedX = Math.random() * 2 - 1
+        this.speedY = Math.random() * 2 - 1
         this.color = `hsl(${Math.random() * 60 + 240}, 100%, 50%)`
+        this.opacity = Math.random() * 0.5 + 0.3 // Varying opacity
       }
 
       update() {
-        this.x += this.speedX + cursorPosition.x * 2
-        this.y += this.speedY - cursorPosition.y * 2
+        // Adjust movement based on cursor position with reduced effect
+        const cursorEffect = 1
+        this.x += this.speedX + cursorPosition.x * cursorEffect
+        this.y += this.speedY - cursorPosition.y * cursorEffect
 
+        // Wrap around screen edges
         if (this.x > width) this.x = 0
         else if (this.x < 0) this.x = width
 
@@ -43,10 +47,12 @@ export function BackgroundEffect({ cursorPosition, scrollY }) {
       }
 
       draw() {
+        ctx.globalAlpha = this.opacity
         ctx.fillStyle = this.color
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
         ctx.fill()
+        ctx.globalAlpha = 1
       }
     }
 
@@ -59,22 +65,23 @@ export function BackgroundEffect({ cursorPosition, scrollY }) {
     function animate() {
       ctx.clearRect(0, 0, width, height)
 
-      // Draw grid
-      ctx.strokeStyle = "rgba(77, 53, 255, 0.1)"
+      // Draw grid with scroll effect
+      ctx.strokeStyle = "rgba(77, 53, 255, 0.07)" // More subtle grid
       ctx.lineWidth = 1
 
       const gridSize = 50
-      const offsetX = (scrollY * 0.1) % gridSize
-      const offsetY = (scrollY * 0.05) % gridSize
+      const offsetX = (scrollY * 0.05) % gridSize
+      const offsetY = (scrollY * 0.02) % gridSize
 
-      for (let x = -offsetX; x < width; x += gridSize) {
+      // Draw fewer grid lines for better performance
+      for (let x = -offsetX; x < width; x += gridSize * 2) {
         ctx.beginPath()
         ctx.moveTo(x, 0)
         ctx.lineTo(x, height)
         ctx.stroke()
       }
 
-      for (let y = -offsetY; y < height; y += gridSize) {
+      for (let y = -offsetY; y < height; y += gridSize * 2) {
         ctx.beginPath()
         ctx.moveTo(0, y)
         ctx.lineTo(width, y)

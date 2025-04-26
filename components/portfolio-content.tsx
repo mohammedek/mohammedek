@@ -12,6 +12,7 @@ import { BackgroundEffect } from "@/components/background-effect"
 export default function PortfolioContent() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
   const [scrollY, setScrollY] = useState(0)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -25,18 +26,25 @@ export default function PortfolioContent() {
       setScrollY(window.scrollY)
     }
 
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+
+    checkMobile()
     window.addEventListener("mousemove", handleMouseMove)
     window.addEventListener("scroll", handleScroll)
+    window.addEventListener("resize", checkMobile)
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove)
       window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", checkMobile)
     }
   }, [])
 
   return (
     <>
-      <MouseFollower />
+      {!isMobile && <MouseFollower />}
       <BackgroundEffect cursorPosition={cursorPosition} scrollY={scrollY} />
 
       <div className="relative z-10">

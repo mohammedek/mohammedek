@@ -6,7 +6,7 @@ import { ResumeData } from "@/lib/resume-data"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, Linkedin } from "lucide-react"
+import { Mail, Phone, Linkedin, Github, ExternalLink } from "lucide-react"
 
 export function ContactSection() {
   const ref = useRef(null)
@@ -33,7 +33,7 @@ export function ContactSection() {
   }
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4 pointer-events-auto">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -97,6 +97,40 @@ export function ContactSection() {
                   className="text-gray-300 hover:text-cyan-400 transition-colors"
                 >
                   LinkedIn Profile
+                </a>
+              </motion.div>
+
+              <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
+                <motion.div
+                  className="bg-purple-900/50 p-2 rounded-full"
+                  whileHover={{ scale: 1.2, backgroundColor: "#5d35ff" }}
+                >
+                  <Github className="h-5 w-5 text-purple-300" />
+                </motion.div>
+                <a
+                  href={ResumeData.contact.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  GitHub Profile
+                </a>
+              </motion.div>
+
+              <motion.div className="flex items-center gap-3" whileHover={{ x: 5 }}>
+                <motion.div
+                  className="bg-purple-900/50 p-2 rounded-full"
+                  whileHover={{ scale: 1.2, backgroundColor: "#5d35ff" }}
+                >
+                  <ExternalLink className="h-5 w-5 text-purple-300" />
+                </motion.div>
+                <a
+                  href={`https://${ResumeData.contact.portfolio}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-cyan-400 transition-colors"
+                >
+                  Portfolio Website
                 </a>
               </motion.div>
             </div>

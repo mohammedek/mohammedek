@@ -32,7 +32,7 @@ export function SkillsSection() {
   const categoryColors = {
     "Mobile Development": "from-purple-900/80 to-blue-900/80",
     "Backend & Cloud": "from-blue-900/80 to-cyan-900/80",
-    "AI & Data Science": "from-cyan-900/80 to-green-900/80",
+    "Data & AI": "from-cyan-900/80 to-green-900/80",
     "Tools & Methodologies": "from-green-900/80 to-purple-900/80",
   }
 
@@ -81,6 +81,57 @@ export function SkillsSection() {
             </motion.div>
           ))}
         </div>
+
+        {/* Languages Section */}
+        <motion.div
+          variants={itemVariants}
+          className="mt-12 bg-black/30 backdrop-blur-sm border border-purple-900/50 rounded-xl p-6"
+        >
+          <h3 className="text-xl font-semibold mb-4 text-white">Languages</h3>
+          <div className="flex flex-wrap gap-2">
+            {ResumeData.languages.map((language, i) => (
+              <motion.div
+                key={i}
+                className="bg-gradient-to-r from-purple-900/80 to-blue-900/80 px-3 py-1.5 rounded-full text-sm text-white cursor-pointer"
+                whileHover={{
+                  scale: 1.1,
+                  transition: { type: "spring", stiffness: 300, damping: 10 },
+                }}
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: i * 0.05 }}
+              >
+                {language}
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Certifications Section */}
+        <motion.div
+          variants={itemVariants}
+          className="mt-12 bg-black/30 backdrop-blur-sm border border-purple-900/50 rounded-xl p-6"
+        >
+          <h3 className="text-xl font-semibold mb-4 text-white">Certifications</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {ResumeData.certifications.map((cert, i) => (
+              <motion.div
+                key={i}
+                className="bg-black/30 p-4 rounded-lg border border-purple-900/30"
+                whileHover={{
+                  scale: 1.05,
+                  transition: { type: "spring", stiffness: 300, damping: 10 },
+                }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+              >
+                <h4 className="text-white font-medium">{cert.title}</h4>
+                <p className="text-gray-400 text-sm">{cert.issuer}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </motion.div>
     </div>
   )

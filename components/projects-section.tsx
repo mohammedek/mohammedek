@@ -6,7 +6,7 @@ import { ResumeData } from "@/lib/resume-data"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, Github } from "lucide-react"
 
 export function ProjectsSection() {
   const ref = useRef(null)
@@ -92,9 +92,23 @@ export function ProjectsSection() {
                   <p className="text-gray-300 text-sm">{project.description}</p>
                 </CardContent>
                 <CardFooter className="flex gap-2">
+                  {project.github && (
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-cyan-800 text-cyan-400 hover:bg-cyan-950"
+                      as="a"
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="h-4 w-4 mr-2" />
+                      View Code
+                    </Button>
+                  )}
                   <Button variant="outline" size="sm" className="border-cyan-800 text-cyan-400 hover:bg-cyan-950">
                     <ExternalLink className="h-4 w-4 mr-2" />
-                    View Project
+                    Demo
                   </Button>
                 </CardFooter>
               </Card>

@@ -1,137 +1,134 @@
 export const ResumeData = {
-  name: "Mohammed EK",
+  name: "MOHAMMED EK",
   title: "Senior Flutter Developer",
   contact: {
     email: "mohammedek159@gmail.com",
     phone: "+91 9744609937",
-    location: "Kannur, Kerala",
-    linkedin: "https://www.linkedin.com/in/mohammed-ek-445a44202",
+    location: "Kerala, India",
+    linkedin: "https://www.linkedin.com/in/mohammedel",
+    github: "https://github.com/mohammedek",
+    portfolio: "mohammedek-portfolio.vercel.app",
   },
   summary:
-    "Results-driven Flutter developer with 4+ years of experience building responsive, scalable mobile applications. Successfully delivered 8+ production-ready applications with improved performance and user experience. Skilled in Dart programming, BLoC pattern implementation, and Firebase integration with a track record of optimizing app performance by 20-30%.",
+    "With 4+ years of hands-on experience, I'm a Flutter expert who delivers high-performance, user-focused apps that solve real business challenges. I don't just write code - I build fast, scalable, and impactful solutions that users love. My apps serve thousands of active daily users, helping local businesses streamline operations and improve engagement.",
 
   education: [
     {
-      degree: "B.C.A. in Computer Science",
-      institution: "WMO ARTS AND University of Calicut, India",
-      period: "01/2024 - 12/2024",
-    },
-    {
-      degree: "KBHSE 12TH",
-      institution: "AKG MGHSS",
-      period: "01/2021 - 12/2021",
-    },
-    {
-      degree: "PINARAYI KBPE 10TH",
-      institution: "St Joseph HSS Thalassery",
-      period: "01/2019 - 12/2019",
+      degree: "Bachelors in Computer Application",
+      institution: "Calicut University",
+      period: "Sept 2021 - Apr 2024",
     },
   ],
 
   skills: {
-    "Mobile Development": ["Flutter", "Dart", "BLoC pattern", "Multi-platform", "UX/UI Design"],
-    "Backend & Cloud": ["Firebase", "AWS", "Google Cloud", "MySQL", "Java", "Python", "Vertex AI"],
-    "AI & Data Science": [
-      "Machine Learning (Rookie)",
-      "TensorFlow Lite",
-      "Data Analysis",
-      "AI Integration",
-      "Flutter AI Apps",
+    "Mobile Development": ["Flutter", "Dart", "BLoC Pattern", "Clean Architecture", "UX/UI Design"],
+    "Backend & Cloud": [
+      "Firebase (Auth, Firestore, Cloud Functions, Hosting)",
+      "Google Cloud Platform (GCP)",
+      "AWS",
+      "MySQL",
+      "REST API Integration",
     ],
-    "Tools & Methodologies": ["Agile", "Git", "Google Sheets", "Data mining"],
+    "Data & AI": ["Data Mining", "ML (basics)", "WebRTC", "AGORA"],
+    "Tools & Methodologies": ["Git Workflow", "Agile", "Problem-solving", "Team Collaboration"],
   },
 
   experience: [
     {
-      title: "Senior Flutter Developer",
-      company: "Cholamandalam Investment and Finance Co., Chennai",
-      period: "06/2024 - Present",
+      title: "Senior Software Developer",
+      company: "Cholamandalam Investment and Finance Company Limited",
+      period: "Jun 2024 - Present",
       responsibilities: [
-        "Spearheaded development of 2 high-performance cross-platform financial applications with over 8,000+ active users",
-        "Engineered secure transaction architecture that improved authentication protocols and maintained data integrity",
-        "Integrated 3 third-party payment APIs, reducing authentication processing time by 40%",
-        "Established coding standards and best practices that decreased bug reports by 25% and improved development efficiency",
-        "Mentored 2 junior developers, resulting in faster onboarding and improved code quality across team projects",
-        "Implemented AI-powered features using Flutter and Vertex AI for predictive analytics",
+        "Led the development of high-performance cross-platform financial applications contributing to CIFCL's expansive digital infrastructure that supports over 7.75 lakh customers nationwide",
+        "Integrated three third-party payment APIs, reducing authentication processing time by 40%",
+        "Mentored two junior developers, facilitating faster onboarding and elevating code quality across team projects",
       ],
+      companyInfo:
+        "An Indian non-banking financial company and investment service provider headquartered in Chennai. Established in 1978, it is a part of the Murugappa Group.",
     },
     {
       title: "Flutter Developer",
-      company: "Mexilet Technologies Private Limited, Cannanore",
-      period: "06/2023 - 05/2024",
+      company: "Mexilet Technologies",
+      period: "Jun 2023 - May 2024",
       responsibilities: [
-        "Delivered 3 Flutter applications with 4.5+ star ratings, focusing on responsive UI and optimized performance",
-        "Implemented BLoC pattern across 2 enterprise applications, decreasing codebase complexity by 20% and improving maintainability",
-        "Integrated Firebase services for authentication, Firestore, and Cloud Functions, enabling real-time data synchronization",
-        "Executed 4 feature updates based on user feedback analysis, increasing user retention by 15%",
-        "Reduced app startup time by 25% through code optimization and efficient asset management",
-        "Explored machine learning integration for image recognition features",
+        "Delivered 3 high-rated apps (4.5+ stars)",
+        "Reduced app startup time by 25%, improved user retention by 15%",
+        "A dedicated team transforming real estate for builders with innovative solutions",
       ],
     },
     {
-      title: "Junior Flutter Developer",
-      company: "AdamBere Technologies Private Limited",
-      period: "03/2021 - 04/2023",
+      title: "Flutter Developer (Intern → Junior Developer)",
+      company: "AdamBere Technologies",
+      period: "Jul 2020 - Apr 2023",
       responsibilities: [
-        "Developed 3 cross-platform applications for both iOS and Android platforms with positive user reviews",
-        "Collaborated with international clients to analyze requirements and implement effective solutions",
-        "Mastered mobile application development fundamentals and delivered features consistently on schedule",
-        "Participated actively in agile development processes including daily standups and sprint planning",
-        "Improved UI designs for 2 existing applications, resulting in better user engagement metrics",
+        "Started as a Software Engineering Intern gaining hands-on experience with mobile design principles, business logic, and team collaboration",
+        "Fixed over 15 bugs during internship phase, contributing to overall app stability and quality",
+        "Created reusable UI components that were later adopted in production, showcasing early initiative and skill growth",
+        "Promoted to Junior Flutter Developer, where I independently developed 3 cross-platform apps for both iOS and Android",
+        "Collaborated with global clients to implement scalable features based on real-world business requirements",
+        "Contributed to UI/UX improvements across multiple projects, enhancing user satisfaction and engagement",
+        "Applied Git workflow best practices, improving version control efficiency and collaboration within the dev team",
       ],
-    },
-    {
-      title: "Software Engineer Intern",
-      company: "Adambere Technologies Private Limited",
-      period: "07/2020 - 02/2021",
-      responsibilities: [
-        "Gained fundamental knowledge in mobile design principles and business logic implementation",
-        "Identified and fixed over 15 bugs across various applications, improving overall stability",
-        "Created several reusable UI components under supervision that were implemented in production",
-        "Learned version control systems and applied proper Git workflow practices for team collaboration",
-      ],
+      companyInfo: "Heller is a Software Editor specialized in logistics management",
     },
   ],
 
   projects: [
     {
-      title: "AI-Powered CRM Application",
-      technologies: ["Flutter", "Firebase", "Vertex AI", "Multi-Tenant Architecture"],
+      title: "WMO Hostel Attendance System",
+      technologies: ["Flutter", "Firebase", "Real-time Database"],
       description:
-        "Designed and developed a multi-tenant CRM application with AI-powered insights and predictions. Implemented product management, sales tracking, stock management, reporting, and analytics. Integrated Firebase Firestore as the backend with Vertex AI for predictive analytics.",
+        "Full-stack hostel management system for WMO campus with separate real-time attendance tracking, role-based access, analytics dashboard",
+      github: "https://github.com/mohammedek/wmo_hostel_attendence",
     },
     {
-      title: "Invoice Generator Mobile App",
-      technologies: ["Flutter", "PDF Generation", "Offline-First", "ML for OCR"],
+      title: "Video Chat App using AGORA",
+      technologies: ["Flutter", "WebRTC", "AGORA SDK"],
       description:
-        "Built an intuitive invoicing application with dynamic PDF generation and invoice tracking. Implemented offline-first architecture using local storage and Firestore sync. Added a custom tax and discount feature for flexible invoice customization. Integrated ML for OCR to extract data from scanned invoices.",
+        "Real-time video conferencing app built using Flutter and WebRTC. Features include peer-to-peer video calling, room-based connection, signaling integration.",
+      github: "https://github.com/mohammedek/video_chat",
     },
     {
-      title: "JSON to Freezed Converter",
+      title: "NetFIEK | Streaming Clone",
+      technologies: ["Flutter", "API Integration", "UI/UX"],
+      description:
+        "Netflix-inspired video streaming platform clone in Flutter. Features carousel browsing, playback interface, responsive design.",
+      github: "https://github.com/mohammedek/NetFIEk",
+    },
+    {
+      title: "Login Course App",
+      technologies: ["Flutter", "Authentication", "UI/UX"],
+      description:
+        "Clean and secure authentication flow app for educational platforms. Features email/password login, validation, smooth UX transitions.",
+      github: "https://github.com/mohammedek/login_course_app",
+    },
+    {
+      title: "Json-to-freezed",
       technologies: ["Flutter Web", "Firebase Hosting", "Code Generation"],
       description:
-        "Developed a web-based tool to convert JSON into Freezed models, enhancing Flutter development efficiency. Integrated additional features like enum detection, final properties, and advanced customization options. Deployed the project on Firebase Hosting with optimized performance.",
-    },
-    {
-      title: "AI Image Classifier",
-      technologies: ["Flutter", "TensorFlow Lite", "Vertex AI", "Camera Integration"],
-      description:
-        "Created a mobile application that uses machine learning to classify images in real-time. Implemented TensorFlow Lite for on-device inference and Vertex AI for cloud-based processing of complex classifications. Features include camera integration, gallery support, and result sharing.",
+        "Web tool to convert JSON into Freezed models, improving code structure and reducing boilerplate. Features enum detection, final properties, deep JSON support. Firebase-hosted.",
+      github: "https://github.com/mohammedek/Json-to-freezed",
     },
   ],
 
   certifications: [
     {
-      title: "CISCO FLUTTER COURSE COMPLETION CERTIFICATE",
-      issuer: "CodeWithKittiyalo",
+      title: "CISCO Flutter Course Completion Certificate",
+      issuer: "CISCO",
     },
     {
-      title: "Google Cyber Security Certification",
-      issuer: "",
+      title: "Google Cybersecurity Certification",
+      issuer: "Google",
     },
     {
-      title: "Introduction to Machine Learning",
-      issuer: "Google Cloud",
+      title: "Stanford Machine Learning",
+      issuer: "Coursera",
+    },
+    {
+      title: "Big Data",
+      issuer: "Avodha",
     },
   ],
+
+  languages: ["English", "Hindi", "Tamil", "Malayalam", "Kannada", "Arabic"],
 }

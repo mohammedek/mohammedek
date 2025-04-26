@@ -44,7 +44,7 @@ export function ExperienceSection() {
   }
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4 pointer-events-auto">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -72,6 +72,11 @@ export function ExperienceSection() {
                         </SplitText>
                       </CardTitle>
                       <CardDescription className="text-gray-400">{job.company}</CardDescription>
+                      {job.companyInfo && (
+                        <CardDescription className="text-gray-500 text-sm mt-1 max-w-2xl">
+                          {job.companyInfo}
+                        </CardDescription>
+                      )}
                     </div>
                     <Badge variant="outline" className="bg-purple-950/50 text-purple-300 border-purple-700">
                       {job.period}

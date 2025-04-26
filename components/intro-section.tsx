@@ -4,6 +4,8 @@ import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { InteractiveText } from "@/components/interactive-text"
+import { ResumeData } from "@/lib/resume-data"
+import { Github, Linkedin, ExternalLink } from "lucide-react"
 
 export function IntroSection() {
   const ref = useRef(null)
@@ -42,35 +44,55 @@ export function IntroSection() {
           variants={itemVariants}
           className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 text-transparent bg-clip-text"
         >
-          MOHAMMED EK
+          {ResumeData.name}
         </motion.h1>
 
         <motion.div variants={itemVariants}>
           <InteractiveText
-            text="Senior Flutter Developer"
+            text={ResumeData.title}
             className="text-xl md:text-2xl font-light text-cyan-400 mb-6"
             charClassName="hover:text-white hover:scale-110 transition-all duration-300"
           />
         </motion.div>
 
-        <motion.p variants={itemVariants} className="text-lg md:text-xl text-gray-300 mb-6 leading-relaxed">
-          Results-driven Flutter developer with 4+ years of experience building responsive, scalable mobile
-          applications. Successfully delivered 8+ production-ready applications with improved performance and user
-          experience.
-        </motion.p>
-
         <motion.p variants={itemVariants} className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
-          Building AI-powered applications using Flutter and Vertex AI. Exploring data science and machine learning as a
-          passionate rookie.
+          {ResumeData.summary}
         </motion.p>
 
-        <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-4">
+        <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-4 mb-8">
           <Button className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600">
             View Projects
           </Button>
           <Button variant="outline" className="border-cyan-500 text-cyan-400 hover:bg-cyan-950">
             Download Resume
           </Button>
+        </motion.div>
+
+        <motion.div variants={itemVariants} className="flex justify-center gap-4">
+          <a
+            href={ResumeData.contact.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 bg-black/30 rounded-full border border-purple-600/30 hover:bg-purple-900/30 transition-all"
+          >
+            <Github className="h-5 w-5 text-white" />
+          </a>
+          <a
+            href={ResumeData.contact.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 bg-black/30 rounded-full border border-purple-600/30 hover:bg-purple-900/30 transition-all"
+          >
+            <Linkedin className="h-5 w-5 text-white" />
+          </a>
+          <a
+            href={`https://${ResumeData.contact.portfolio}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 bg-black/30 rounded-full border border-purple-600/30 hover:bg-purple-900/30 transition-all"
+          >
+            <ExternalLink className="h-5 w-5 text-white" />
+          </a>
         </motion.div>
       </motion.div>
 

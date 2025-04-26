@@ -30,6 +30,8 @@ body {
   background-color: #000000;
   color: hsl(var(--foreground));
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -60,4 +62,21 @@ body {
 #__next,
 main {
   background-color: #000000;
+}
+
+/* Fix for mobile devices */
+@media (max-width: 768px) {
+  .text-gradient {
+    background-size: 200% auto;
+  }
+
+  /* Improve touch targets on mobile */
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
