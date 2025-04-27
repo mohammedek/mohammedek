@@ -5,7 +5,7 @@ export const ResumeData = {
     email: "mohammedek159@gmail.com",
     phone: "+91 9744609937",
     location: "Kerala, India",
-    linkedin: "https://www.linkedin.com/in/mohammedel",
+    linkedin: "https://www.linkedin.com/in/mohammedek",
     github: "https://github.com/mohammedek",
     portfolio: "mohammedek-portfolio.vercel.app",
   },
