@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { InteractiveText } from "@/components/interactive-text"
 import { ResumeData } from "@/lib/resume-data"
 import { Github, Linkedin, ExternalLink } from "lucide-react"
+import { ResumeDownloadButton } from "@/components/resume-download-button"
 
 export function IntroSection() {
   const ref = useRef(null)
@@ -60,12 +61,18 @@ export function IntroSection() {
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-4 mb-8">
-          <Button className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600">
+          <Button
+            className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600"
+            onClick={() => {
+              const projectsSection = document.querySelector("#projects-section")
+              if (projectsSection) {
+                projectsSection.scrollIntoView({ behavior: "smooth" })
+              }
+            }}
+          >
             View Projects
           </Button>
-          <Button variant="outline" className="border-cyan-500 text-cyan-400 hover:bg-cyan-950">
-            Download Resume
-          </Button>
+          <ResumeDownloadButton variant="outline" className="border-cyan-500 text-cyan-400 hover:bg-cyan-950" />
         </motion.div>
 
         <motion.div variants={itemVariants} className="flex justify-center gap-4">

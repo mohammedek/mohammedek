@@ -50,7 +50,7 @@ export function BackgroundEffect({ cursorPosition, scrollY }) {
         ctx.globalAlpha = this.opacity
         ctx.fillStyle = this.color
         ctx.beginPath()
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
+        ctx.arc(this.x, this.y, Math.max(0.1, this.size), 0, Math.PI * 2)
         ctx.fill()
         ctx.globalAlpha = 1
       }

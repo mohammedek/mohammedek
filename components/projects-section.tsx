@@ -33,7 +33,7 @@ export function ProjectsSection() {
   }
 
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4">
+    <div id="projects-section" className="min-h-screen w-full flex flex-col items-center justify-center py-20 px-4">
       <motion.div
         ref={ref}
         initial="hidden"

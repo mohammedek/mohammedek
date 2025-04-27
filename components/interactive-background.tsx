@@ -112,8 +112,9 @@ function GlowingOrbs({ cursorPosition }) {
       orb.position.x = data.position[0] + cursorPosition.x * 2
       orb.position.z = data.position[2] + cursorPosition.y * 2
 
-      // Pulsating scale
-      orb.scale.setScalar(data.scale + Math.sin(time * data.speed * 0.5) * 0.2)
+      // Pulsating scale with safety check to prevent negative values
+      const scale = Math.max(0.1, data.scale + Math.sin(time * data.speed * 0.5) * 0.2)
+      orb.scale.setScalar(scale)
     })
   })
 

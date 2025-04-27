@@ -1,16 +1,20 @@
 "use client"
 
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import { motion, useInView } from "framer-motion"
 import { ResumeData } from "@/lib/resume-data"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, Linkedin, Github, ExternalLink } from "lucide-react"
+import { Mail, Phone, Linkedin, Github, ExternalLink, Loader2 } from "lucide-react"
+import { submitContactForm } from "@/lib/actions"
+import { toast } from "sonner"
 
 export function ContactSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: false, amount: 0.2 })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const formRef = useRef(null)
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -30,6 +34,28 @@ export function ContactSection() {
       opacity: 1,
       transition: { type: "spring", stiffness: 100, damping: 10 },
     },
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    try {
+      const formData = new FormData(formRef.current)
+      const result = await submitContactForm(formData)
+
+      if (result.success) {
+        toast.success(result.message)
+        formRef.current.reset()
+      } else {
+        toast.error(result.message)
+      }
+    } catch (error) {
+      toast.error("An unexpected error occurred. Please try again.")
+      console.error("Contact form error:", error)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -142,36 +168,57 @@ export function ContactSection() {
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <form className="space-y-4">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.98 }}>
                 <Input
+                  name="name"
                   placeholder="Your Name"
+                  required
                   className="bg-black/30 border-purple-900/50 focus:border-cyan-500 text-white"
                 />
               </motion.div>
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.98 }}>
                 <Input
+                  name="email"
                   type="email"
                   placeholder="Your Email"
+                  required
                   className="bg-black/30 border-purple-900/50 focus:border-cyan-500 text-white"
                 />
               </motion.div>
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.98 }}>
                 <Input
+                  name="subject"
                   placeholder="Subject"
                   className="bg-black/30 border-purple-900/50 focus:border-cyan-500 text-white"
                 />
               </motion.div>
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.98 }}>
                 <Textarea
+                  name="message"
                   placeholder="Your Message"
+                  required
                   rows={5}
                   className="bg-black/30 border-purple-900/50 focus:border-cyan-500 text-white resize-none"
                 />
               </motion.div>
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600">
-                  Send Message
+              <motion.div
+                whileHover={!isSubmitting ? { scale: 1.05 } : {}}
+                whileTap={!isSubmitting ? { scale: 0.95 } : {}}
+              >
+                <Button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600"
+                >
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      Sending...
+                    </>
+                  ) : (
+                    "Send Message"
+                  )}
                 </Button>
               </motion.div>
             </form>
